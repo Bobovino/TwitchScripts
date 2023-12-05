@@ -16,7 +16,7 @@ const interval = setInterval(() => {
     clickButtonByXPath('//*[@id="channel-points-reward-center-body"]/div/div/div[3]/div/button')
 
     counter++
-    if (counter >= 1) {
+    if (counter >= 10) {
         clearInterval(interval)
     }
 }, 500) 
